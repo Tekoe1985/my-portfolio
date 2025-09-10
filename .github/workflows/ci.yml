@@ -30,4 +30,4 @@ jobs:
       - name: Push image
         run: |
              docker login -u tekoe1985 -p ${{secrets.REGISTRY_PASS}}
-             docker push tekoe1985/portfolio
+             docker push tekoe1985/my-portfolio
